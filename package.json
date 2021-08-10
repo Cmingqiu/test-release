@@ -1,0 +1,29 @@
+{
+  "name": "test-release",
+  "version": "1.0.0",
+  "description": "用来测试发布版本的库(立删！)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cmingqiu/test-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cmingqiu/test-release/issues"
+  },
+  "homepage": "https://github.com/Cmingqiu/test-release#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
